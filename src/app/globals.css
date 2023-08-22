@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255; */
+}
+
+@media (prefers-color-scheme: dark) {
+  /* :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  } */
+}
+
+body {
+  /* color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+}
+
+.sidebar {
+  background-color: #bd5d38;
+}
+
+.sidebarText {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.sidebarText:hover {
+  color: #ffffffbf;
+}
+
+.header {
+  font-family: "Saira Extra Condensed", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+.lastName {
+  color: #bd5d38 !important;
+}
+
+.header-medium {
+  font-family: "Saira Extra Condensed", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+  font-size: 1.75rem;
+}
+
+.header-large{
+  font-family: 'Saira Extra Condensed',serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+  font-size: 3.5rem;
+}
+
+.subHeader {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: "Saira Extra Condensed", serif;
+  font-size: 1.35rem;
+  color: #868e96;
+}
+
+.email {
+  color: #bd5d38 !important;
+}
+
+.details {
+  font-family: "Open Sans", serif;
+  color: #868e96;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 1.5s ease-in-out forwards;
+}
