@@ -20,7 +20,7 @@ export default function RootLayout({
           <div className="w-1/5">
             <Sidebar />
           </div>
-          <div className="w-4/5 overflow-auto h-screen flex items-center justify-start p-12">
+          <div className="w-4/5 overflow-y-auto overflow-x-hidden h-screen flex items-center justify-start p-12">
             {children}
           </div>
         </div>
