@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Sidebar } from "@/components";
+import { Sidebar ,MobileNavbar } from "@/components";
 
 
 export const metadata: Metadata = {
@@ -16,11 +16,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body >
-        <div className="flex">
-          <div className="w-1/5">
+        <div className="lg:flex">
+          <div className="sm:hidden lg:block w-1/5">
             <Sidebar />
           </div>
-          <div className="w-4/5 overflow-y-auto overflow-x-hidden h-screen flex items-center justify-start p-12">
+          <div className="sm:block lg:hidden ">
+            <MobileNavbar />
+          </div>
+          <div className="sm:w-full lg:w-4/5 overflow-y-auto overflow-x-hidden h-screen flex items-center justify-start p-12">
             {children}
           </div>
         </div>

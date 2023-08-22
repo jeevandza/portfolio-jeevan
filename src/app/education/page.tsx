@@ -10,7 +10,6 @@ export default function education() {
         <h1 className="details mt-8">
           Computer Science - Web Development Track
         </h1>
-        <h1 className="details">70%</h1>
       </div>
       <div className="py-4">
         <h1 className="header-medium">Diploma in mechatronics</h1>

@@ -10,6 +10,7 @@ import {
   RightMarkIcon,
 } from "./skills";
 import { Award } from "./award";
+import {BurgerICon} from './burgerIcon'
 
 export {
   HtmlIcon,
@@ -22,4 +23,5 @@ export {
   NPMIcon,
   RightMarkIcon,
   Award,
+  BurgerICon
 };

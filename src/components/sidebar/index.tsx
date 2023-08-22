@@ -1,6 +1,6 @@
 import Image from "next/image";
 import profile from "@/assets/images/jeevan.jpg";
-import {TabLinks} from './tabLinks'
+import {TabLinks} from '../tabLinks'
 
 export function Sidebar() {
   return (
@@ -14,7 +14,7 @@ export function Sidebar() {
           height={160}
         />
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center sidebar">
         <TabLinks tabName="Home" pathName="/"/>
         <TabLinks tabName="experience" pathName="/experience"/>
         <TabLinks tabName="education" pathName="/education"/>

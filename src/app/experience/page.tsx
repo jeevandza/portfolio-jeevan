@@ -87,7 +87,7 @@ const textportIndustries = [
 
 export default function Experience() {
   return (
-    <div className="animate-slide-in-right h-screen py-8 w-full">
+    <div className="animate-slide-in-right h-screen py-8 sm:w-screen lg:w-full">
       <h1 className="header-large mb-6">Experience</h1>
       <div className="py-4">
         <h1 className="header-medium"> Software developer</h1>

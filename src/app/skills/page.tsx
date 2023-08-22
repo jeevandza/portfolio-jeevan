@@ -10,12 +10,12 @@ import {
   RightMarkIcon,
 } from "@/assets/icons";
 
-export default function About() {
+export default function Skills() {
   return (
     <div className="animate-slide-in-right">
       <h1 className="header-large mb-6">SKILLS</h1>
       <h1 className="subHeader mb-6">PROGRAMMING LANGUAGES & TOOLS</h1>
-      <div className="flex justify-between items-center">
+      <div className="flex justify-between items-center sm:flex-wrap">
         <span className="">
           <HtmlIcon />
         </span>
